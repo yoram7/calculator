@@ -99,13 +99,3 @@ inputDecimal = (dot) => {
     }
     currentNumber += dot
 }
-// -----------------------Percentage-----------------------//
-const percentage = document.querySelector(".percentage")
-
-percentage.addEventListener('click', (event) => {
-    inputPercentage(event.target.value)
-})
-// -----------------------Input Percentage-----------------------//
-inputPercentage = (percentage) => {
-    currentNumber / 300 * 100
-}
